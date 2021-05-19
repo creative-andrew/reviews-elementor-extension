@@ -1,0 +1,100 @@
+.ca-reviews  .rev-box{
+  border: 1px solid grey;
+  padding: 8px 20px;
+  margin-top: 10px;
+}
+
+.ca-reviews h3 {
+ font-weight: 600;
+ margin: 0 0 20px;
+ color: #333;
+ line-height: 1.4;
+ font-size: 18px;
+}
+.ca-reviews  .verified-g{
+  color: #09a54e;
+  font-size: 12px;
+  margin: 0 0 20px;
+  margin-top: -12px;
+
+}
+.ca-reviews  .teext{
+  color: grey;
+  font-size: 12px;
+  margin-top: -12px;
+
+}
+.ca-reviews {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.ca-reviews   .slider {
+  background: transparent;
+  position: relative;
+  margin: 2rem 0;
+  overflow: hidden;
+  padding-right: 30px;
+}
+.ca-reviews  .slide-switch {
+  display: none;
+}
+.ca-reviews .ca-controlers  {
+    display: flex;
+    justify-content: center;
+  top: -20px;
+  position: relative;
+}
+.ca-reviews .ca-controlers span{
+ bottom: 1rem;
+ display: block;
+ z-index: 5;
+ border: 1px solid grey;
+ cursor: pointer;
+ transition: all 0.25s;
+ padding: 4px 2px 2px 2px;
+ line-height: 1;
+ text-align: center;
+ height: 25px;
+ width: 25px;
+ margin-right: 2px;
+}
+@media only screen and (max-width:600px){
+
+ .ca-reviews  .slider {
+    padding-right: 0px;
+  }
+  .ca-reviews  .slide-label {
+    margin-left: 32%;
+  }
+}
+.ca-reviews  .padded {
+  padding: 1rem 2rem;
+}
+.ca-reviews  .slide-content {
+  width: 100%;
+  background: transparent;
+  float: left;
+  margin-right: -150%;
+  padding: 20px;
+
+}
+.ca-reviews  .control-active {
+  background: #09a54e;
+}
+.ca-reviews  .slide-content:not(.active) {
+  opacity: 0;
+  transition: opacity 0.35s;
+  pointer-events: none;
+}
+.ca-reviews .slide-content.active {
+  animation: slide 1s;
+}
+@keyframes slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
