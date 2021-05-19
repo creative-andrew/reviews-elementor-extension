@@ -3,7 +3,7 @@
  * Plugin Name: Creative Andrew Elementor Blocks
  * Description: Custom Elementor extension.
  * Plugin URI:  https://www.fiverr.com/creative_andrew
- * Version:     1.0.0
+ * Version:     1.0.1
  * Author:      Creative Andrew
  * Author URI:  https://www.fiverr.com/creative_andrew
  * Text Domain: creative-andrew-elementor-blocks
@@ -320,7 +320,7 @@ final class Creative_Andrew_Elementor_Blocks {
 			'creative_andrew_elementor_blocks'
 		);
 		//Set the branch that contains the stable release.
-		$myUpdateChecker->setBranch('main');
+		$myUpdateChecker->setBranch('master');
 	}
 
 
