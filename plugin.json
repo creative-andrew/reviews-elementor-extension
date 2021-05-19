@@ -1,6 +1,7 @@
 {
 	"name" : "Creative Andrew Elementor Blocks",
 	"version" : "1.0",
+	"slug" : "creative_andrew_elementor_blocks",
 	"download_url" : "https://github.com/geist-ahnen/reviews-elementor-extension/",
 	"sections" : {
 		"description" : "Plugin description here. You can use HTML."
