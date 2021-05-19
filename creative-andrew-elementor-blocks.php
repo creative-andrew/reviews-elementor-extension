@@ -315,14 +315,12 @@ final class Creative_Andrew_Elementor_Blocks {
 		require_once( __DIR__ . '/vendors/plugin-update-checker/plugin-update-checker.php');
 
 		$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-			'https://github.com/user-name/repo-name/',
+			'https://github.com/geist-ahnen/reviews-elementor-extension/',
 			__FILE__,
-			'unique-plugin-or-theme-slug'
+			'creative_andrew_elementor_blocks'
 		);
 		//Set the branch that contains the stable release.
-		$myUpdateChecker->setBranch('stable-branch-name');
-		//Optional: If you're using a private repository, specify the access token like this:
-		$myUpdateChecker->setAuthentication('your-token-here');
+		$myUpdateChecker->setBranch('main');
 	}
 
 
